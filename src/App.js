@@ -1,10 +1,12 @@
 import React from 'react';
-import {Posts} from "./Components/UsersContainer/Posts/Posts";
+import {Posts} from "./Components/PostsContainer/Posts/Posts";
+import {Launches} from "./Components/LaunchesContainer/Launches/Launches";
 
 const App = () => {
   return (
       <div>
-          <Posts/>
+          {/*<Posts/>*/}
+          <Launches/>
       </div>
   );
 };

@@ -1,0 +1,14 @@
+.Post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    margin: 10px;
+
+    border: 2px solid black;
+
+    width: calc(20%);
+    height: 200px;
+    box-shadow: 3px 4px 15px grey;
+}

@@ -1,0 +1,18 @@
+.User{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    font-family: sans-serif;
+    font-size: 16px;
+
+    margin: 10px;
+
+    border: 2px solid black;
+    width: calc(20% - 24px);
+    height: 70px;
+    box-shadow: 3px 4px 15px grey;
+
+    background: papayawhip;
+}

@@ -7,13 +7,17 @@ import {PostsPage} from "./pages/PostsPage";
 import {ErrorPage} from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
-    {path:'', element:<MainLayout/>, errorElement: <ErrorPage/>, children:[
-            {index:true, element:<Navigate to={'users'}/>},
-            {path:'users', element:<UsersPage/>, children:[
-                    {path: 'posts', element:<PostsPage/>}
-                ]},
-            {path:'comments', element:<CommentsPage/>}
-        ]},
+    {
+        path: '', element: <MainLayout/>, errorElement: <ErrorPage/>, children: [
+            {index: true, element: <Navigate to={'users'}/>},
+            {
+                path: 'users', element: <UsersPage/>, children: [
+                    {path: 'posts', element: <PostsPage/>}
+                ]
+            },
+            {path: 'comments', element: <CommentsPage/>}
+        ]
+    },
 ])
 
 export {router}

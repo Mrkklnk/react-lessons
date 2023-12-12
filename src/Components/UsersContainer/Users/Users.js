@@ -4,7 +4,7 @@ import css from './Users.module.css'
 import {User} from "../User/User";
 //import axios from "axios";
 //import {axiosService} from "../../../services/axiosService";
-import {userService} from "../../../services/UserService";
+import {userService} from "../../../services/userService";
 import {UserDetails} from "../UserDetails/UserDetails";
 
 const Users = () => {
